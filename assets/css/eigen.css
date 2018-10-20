@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #0c94df 22px, #FFFFFF 22px, #FFFFFF 24px, transparent 24px, transparent 67px, #FFFFFF 67px, #FFFFFF 69px, transparent 69px), linear-gradient(225deg, #0c94df 22px, #FFFFFF 22px, #FFFFFF 24px, transparent 24px, transparent 67px, #FFFFFF 67px, #FFFFFF 69px, transparent 69px)0 64px;
+  background-color: #0c94df;
+  background-size: 64px 128px;
+  overflow: hidden;
+}
+
+#tabMain {
+  margin-top: 10vh;
+  background-color: rgba(255,255,255,0.95);
+  border-radius: 10px;
+  height: 80vh;
+}
+
+#container {
+  height: 80%;
+}
+
+#content {
+  height: 85%;
+  overflow: scroll;
+}
+
+.btn-large {
+  margin-bottom: 15px;
+  background-color: #0c94df;
+  color: #FFFFFF;
+}
+
+.btn-large:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.btn-large:active {
+  background-color: #0c94df;
+  color: #FFFFFF;
+}
+
+.btn-large:focus {
+  background-color: #0c94df;
+  color: #FFFFFF;
+}
+
+.btn {
+  margin-bottom: 15px;
+  background-color: #0c94df;
+  color: #FFFFFF;
+}
+
+.btn:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.btn:active {
+  background-color: #0c94df;
+  color: #FFFFFF;
+}
+
+.btn:focus {
+  background-color: #0c94df;
+  color: #FFFFFF;
+}
+
+i {
+  margin:0px;
+  padding:0px;
+}
+
+.caret {
+  display: none;
+}
